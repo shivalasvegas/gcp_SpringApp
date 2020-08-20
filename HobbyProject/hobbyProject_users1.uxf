@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>300</y>
+      <w>260</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>com.qa.hobbyproject.model::Customer
+--
+-customerId: int
+-name: String
+-address: String
+-phone: String
+-email: String
+-password: String
+--
++Customer(): ctor
++Customer(String customerName, String customerAddress, String customerPhone, String customerEmail, String customerPassword): ctor
++getId(): int
++setId(int customerId): void
++getCustomerAddress(): String
++setCustomerAddress(String customerAddress): void
++getCustomerPhone(): String
++setCustomerPhone(String customerPhone): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>0</y>
+      <w>250</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>/com.qa.hobbyproject.model::User/
+--
+-name: String
+-email: String
+-password: String
+--
++getName(): String
++setName(String name): void
++getEmail(): String
++setEmail(String email): void
++getPassword(): String
++setPassword(String password): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>300</y>
+      <w>300</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>com.qa.hobbyproject.model::Admin
+--
+-adminId: int
+-name: String
+-email: String
+-password: String
+--
++Admin(String adminName, String adminEmail, String adminPassword): ctor
++getId(): int
++setId(int adminId): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>180</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>/AbstractClass/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>200</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>250</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>240</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>240</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>250</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+</diagram>

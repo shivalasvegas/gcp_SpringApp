@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <!-- Required meta tags ... mobile first-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/bootstrap.css" crossorigin="anonymous">
+
+    <title>SFG - Exclusive Content</title>
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/html/index.html"><img src="/html/pix/logo_300px.png" alt="sfg logo 300px" style="width:150px; height: 150px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="workshops.html">Workshops</a>
+              </li>
+            </ul>
+          </div>
+          <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                  <button  class="btn btn-secondary" type="button" id="logoutButton" onclick="loggingOut()">Logout</button>
+              </form>
+            </nav>
+        </nav>
+      </header> <!--container -->
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1>Exclusive</h1>
+          <p class="lead text-muted">Get the lowdown on events, special offers and new charcters before they hit social media!</p>
+        </div>
+      </section>
+      <div class="container  backgroundColour marketing">
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Create your own...<span class="text-muted">Needle felting for everyone!</span></h2>
+            <p class="lead">Here is little Ying Yue a cute and cuddly panda, 
+              with step by step photos of how to create your own panda!
+              </p>
+          </div>
+          <div class="col-md-5" >
+            <img src="/html/pix/yingyue_stepBystep_500px.jpg"  width="350" height="350" class = "img-responsive" />
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh no! Christmas is coming!...<span class="text-muted">Get a sneaky peak at our new Christmas designs.</span></h2>
+            <p class="lead">This year we have been working on some new cute characters, 
+              which will be for sale on Etsy at the end of August.  
+              This cute trio are big fluffy versions of favourite christmas characters.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="/html/pix/christmasTrio_500px.jpg"  width="350" height="350" class = "img-responsive" />    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">One off commissions...<span class="text-muted">Checkout this Gruffalo!</span></h2>
+            <p class="lead">This was a one off commission for a friend. It was super fun to make! We accept commissions on anything - within reason!</p>
+          </div>
+          <div class="col-md-5">
+            <img src="/html/pix/gruffalo_500px.jpg"  width="350" height="350" class = "img-responsive" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      
+
+      <form class="form" method="POST" id="formCustomerComments">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="authCustomerName" placeholder="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="authCustomerEmail" placeholder="name@example.com">
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="form-group">
+          <label for="comments">Comments</label>
+          <textarea class="form-control" id="customerComments" rows="3"></textarea>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+              <button class="btn btn-secondary btn-md btn-block" type="submit" id="buttonCustomerComments">Comment</button>
+          </div>
+      </div >
+      </form>
+     
+    </div><!-- /.container -->
+    </main> <!-- end main -->
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="/js/logout.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

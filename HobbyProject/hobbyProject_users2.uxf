@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>970</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>com.qa.hobbyproject.model::Customer
+--
+-customerId: int
+-customerName: String
+-customerAddress: String
+-customerPhone: String
+-customerEmail: String
+-customerPassword: String
+--
++Customer(): ctor
++Customer(String customerName, String customerAddress, String customerPhone, String customerEmail, String customerPassword): ctor
++Customer(int customerId, String customerName, String customerAddress, String customerPhone, String customerEmail, String customerPassword): ctor
++getCustomerId(): int
++setCustomerId(int customerId): void
++getCustomerAddress(): String
++setCustomerAddress(String customerAddress): void
++getCustomerPhone(): String
++setCustomerPhone(String customerPhone): void
++getCustomerName(): String
++setCustomerName(String name): void
++getCustomerEmail(): String
++setCustomerEmail(String email): void
++getCustomerPassword(): String
++setCustomerPassword(String password): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>450</y>
+      <w>490</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>com.qa.hobbyproject.model::Admin
+--
+-adminId: int
+-adminName: String
+-adminEmail: String
+-adminPassword: String
+--
++Admin(): ctor
++Admin(String adminName, String adminEmail, String adminPassword): ctor
++Admin(int adminId, String adminEmail, String adminPassword): ctor
++getAdminId(): int
++setAdminId(int adminId): void
++getAdminName(): String
++setAdminName(String adminName): void
++getAdminEmail(): String
++setAdminEmail(String adminEmail): void
++getAdminPassword(): String
++setAdminPassword(String adminPassword): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
